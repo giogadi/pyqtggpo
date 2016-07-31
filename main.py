@@ -4,7 +4,7 @@ import sys
 import platform
 
 if platform.system() == 'Darwin':
-    sys.path.append("../Resources/lib/python2.7/site-packages/")
+    sys.path.insert(1, "../Resources/lib/python2.7/site-packages/")
 
 import sip
 # Tell qt to return python string instead of QString
